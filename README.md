@@ -12,12 +12,12 @@
 |`make fclean`| clean your file |
 
 ### Build your own map
-0 for an empty space,
-1 for a wall,
-C for a collectible,
-E for a map exit,
-P for the player’s starting position.
-f for the enemy
+0 for an empty space(we can call it floor)<br>
+1 for a wall<br>
+C for a collectible<br>
+E for a map exit<br>
+P for the player’s starting position.<br>
+f for the enemy<br>
 For build your map follow this example:
 |1111111111111|
 |-------------|
@@ -25,3 +25,9 @@ For build your map follow this example:
 |1000011111001|
 |1P0011E000001|
 |1111111111111|
+<br>
+
+### Not all map are allowed
+You can't put  `E < 0` or `E > 1`
+and the contour of the map must be fill with 1
+But dont worry i have done this controll for you, when u try to submit a not allowed map he must be reject
