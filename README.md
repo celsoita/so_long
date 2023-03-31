@@ -12,13 +12,14 @@
 |`make fclean`| clean your files |
 
 ### Build your own map
-0 for an empty space(we can call it floor)<br>
-1 for a wall<br>
-C for a collectible<br>
-E for a map exit<br>
-P for the player’s starting position.<br>
-F for the enemy<br>
-For build your map follow this example:
+**0** for an empty space(we can call it floor)<br>
+**1** for a wall<br>
+**C** for a collectible<br>
+**E** for a map exit<br>
+**P** for the player’s starting position.<br>
+**F** for the enemy<br>
+
+#### For build your map follow this example:
 |1111111111111|
 |-------------|
 |10010000000C1|
