@@ -2,7 +2,7 @@
 
  | info |
  | -----|
- |`so_long` its a simple game made in `C`,the rules are simple, catch all the `collectible` and reach the `exit` avoid the `enemy` |
+ |`so_long` its a simple game made in `C`, the rules are simple, catch all the `collectible` and reach the `exit` avoid the `enemy` |
 
 ## Usage
 | command | info |
@@ -12,7 +12,7 @@
 |`make fclean`| clean your files |
 
 ### Build your own map
-**0** for an empty space(we can call it floor)<br>
+**0** for an empty space (we can call it floor)<br>
 **1** for a wall<br>
 **C** for a collectible<br>
 **E** for a map exit<br>
@@ -20,8 +20,9 @@
 **F** for the enemy<br>
 
 #### For build your map follow this example:
-|1111111111111|
+|     map     |
 |-------------|
+|1111111111111|
 |10010000000C1|
 |1000011111001|
 |1P0011E000001|
